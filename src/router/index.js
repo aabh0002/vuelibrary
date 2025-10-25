@@ -54,7 +54,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory("https://vuelibrary.pages.dev"),
   routes
 })
 
